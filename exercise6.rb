@@ -5,3 +5,7 @@ def list(x)
 end
 
 list(grocery_list)
+
+grocery_list << "rice"
+list(grocery_list)
+
