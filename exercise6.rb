@@ -1,3 +1,7 @@
 grocery_list = ["carrots", "peas", "apples", "salmon"]
 
-grocery_list.each {|item| puts "*#{item}"}
+def list(x)
+	x.each {|item| puts "*#{item}"}
+end
+
+list(grocery_list)
