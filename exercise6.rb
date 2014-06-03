@@ -18,3 +18,10 @@ else
 end
 
 puts grocery_list[1]
+
+puts "Your alphabetical list:"
+list(grocery_list.sort)
+
+puts "Here's your new list, after deleting salmon."
+grocery_list.delete("salmon")
+list(grocery_list)
