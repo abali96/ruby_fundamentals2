@@ -24,3 +24,7 @@ puts students.keys
 students.each_value {|number|
 	puts (number*1.05).to_i
 }
+
+#Question 5
+students.delete(:cohort2)
+list(students)
